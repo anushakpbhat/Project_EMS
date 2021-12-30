@@ -1,0 +1,19 @@
+
+<div class="one"> 
+    <div class="container"><h2>ADMIN</h2> 
+    <div class="for">
+        <form (ngSubmit)="onSubmit(myForm)" #myForm="ngForm">
+            <label for="fname"></label>
+            <input type="text" class="box" placeholder="User Name" id="fname" name="username" [(ngModel)]="username" required >
+            <br><br>
+            <label for="lname"></label>
+            <input type="text" class="box" placeholder="Password" id="lname" name="password" [(ngModel)]="password" required>
+            <br><br>
+           
+            <button  type="submit" class="box1" x>Login </button>
+            
+            
+          </form>
+    </div>
+    </div>
+</div>

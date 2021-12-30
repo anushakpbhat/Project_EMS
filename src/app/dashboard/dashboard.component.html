@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bxl-c-plus-plus'></i>
+      <span class="logo_name"> ADMIN PORTAL</span>
+    </div>
+    
+    <p style="margin-left: 55px;color:white;" >Name:Anusha KP</p>
+    <p style="margin-left: 55px;color:white;" >Email:anusha@gmail.com</p><br>
+    <hr style="border-top: double 2px;color: white;">
+
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active" routerLink="/dashboard">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+           
+          </a>
+        </li>
+        <hr style="border-top: dotted 1px ;color: white;">
+        <li>
+          <a href="#" routerLink="/view">
+            <i class="fa fa-trash" ></i>
+            <span class="links_name">All Employee</span>
+          </a>
+        </li>
+        <hr style="border-top: dotted 1px ;color: white;">
+        <li>
+          <a href="#" routerLink="/add">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name">New Employee</span>
+          </a>
+        </li>
+        <hr style="border-top: dotted 1px ;color: white;">
+        <li>
+          <a href="" routerLink="/update">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Edit Employee</span>
+          </a>
+        </li>
+        <hr style="border-top: dotted 1px ;color: white;">
+        <li>
+          <a href="#" routerLink="/delete">
+            <i class='bx bx-coin-stack' ></i>
+            <span class="links_name">Remove</span>
+          </a>
+        </li>
+        <hr style="border-top: dotted 1px ;color: white;">
+        
+        <li class="log_out">
+          <a href="" routerLink="/login">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">LOG OUT</span>
+          </a>
+        </li>
+      </ul>    
+  </div>
+ 
+
+  <section class="home-section">
+    
+    <nav class="up">
+      <div class="texts">
+          Developers
+      </div>    
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic"></div>
+            <div class="number"><a href="" routerLink="view" >All Employee</a> </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <!-- <span class="text">............</span> -->
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'><i class="material-icons">visibility</i></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic"></div>
+            <div class="number"><a href="" routerLink="add" >New Employee</a> </div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <!-- <span class="text">............</span> -->
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ><i class="material-icons">add</i></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic"></div>
+            <div class="number"><a href="" routerLink="update" >Edit Employee</a></div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <!-- <span class="text">.................</span> -->
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' > <i class="material-icons">edit</i></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic"></div>
+            <div class="number"><a href="" routerLink="delete" >Remove</a> </div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <!-- <span class="text">.................</span> -->
+            </div>
+          </div>
+          
+          <i class='bx bxs-cart-download cart four' > <i class="material-icons">delete</i></i>
+          
+        </div> 
+      </div>    
+    </div>
+  </section>
+</body>
+</html>
+<router-outlet></router-outlet>

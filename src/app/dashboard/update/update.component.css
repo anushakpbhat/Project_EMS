@@ -1,0 +1,194 @@
+
+
+
+/* Styling the Body element i.e. Color,
+        Font, Alignment 04293A  2D4263 */
+        .out {
+          background-color: #064663;
+          font-family: Verdana;
+          text-align: center;
+          margin-bottom: -100px;
+         
+      }
+      h1{
+        color: white;
+        margin-left:90px ;
+      }
+      div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        width: 70%;
+        top: 0;
+        background-color: #064663;
+        padding: 30px;
+        font-size: 18px;
+        margin-left: 270px;
+        margin-right: -500px;
+      }
+      /* Styling the Form (Color, Padding, Shadow) */
+      form {
+          /* background-color: #fff; */
+          max-width: 450px;
+          margin: 150px auto;
+          padding: 30px 20px;
+          box-shadow: 2px 20px 20px white;
+          background-color: #04293A;
+          /* backdrop-filter: blur(12px); */
+          /* -webkit-backdrop-filter: blur(12px); */
+          color:aliceblue;
+          border-radius: 5px;
+          padding-left:28px;
+          padding-right: 28px;
+          margin-left: 530px;
+          margin-top: 50px;
+          border-radius: 20px;
+
+      }
+
+
+      /* Styling form-control Class */
+      .form-control {
+          text-align: left;
+          margin-bottom: 25px;
+      }
+
+      /* Styling form-control Label */
+      .form-control label {
+          display: block;
+          margin-bottom: 10px;
+      }
+
+      /* Styling form-control input,
+      select, textarea */
+      .form-control input,
+      .form-control select,
+      .form-control textarea {
+          border: 1px solid #777;
+          border-radius: 2px;
+          font-family: inherit;
+          padding: 8px;
+          display: block;
+          width:95%;
+      }
+
+      /* Styling form-control Radio
+      button and Checkbox */
+      .form-control input[type="radio"]
+       {
+          display: inline-block;
+          width: auto;
+      }
+
+      /* Styling Button */
+      button {
+         
+          border: 1px solid #777;
+          border-radius: 2px;
+          font-family: inherit;
+          font-size: 21px;
+          display: block;
+          width: 40%;
+          height: 30px;
+          margin-left: 100px;
+          margin-top: 50px;
+          margin-bottom: 20px;
+      }
+
+      .subbttn{
+          background-color: #05c46b;
+
+      }
+
+      .resbttn{
+          background-color:#FF5959;
+          margin-top:20px;
+
+      }
+
+      
+      
+      .inp{
+          background-color: #F6F5F5;
+      }
+ 
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+  position: fixed;
+  height: 100%;
+  width: 270px;
+  background: #04293A;
+  transition: all 0.5s ease;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+}
+.sidebar.active{
+  width: 60px;
+}
+.sidebar .logo-details{
+  height: 80px;
+  display: flex;
+  padding-top: 25px;
+ 
+}
+.sidebar .logo-details i{
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 15%;
+  margin-top: 12%;
+
+}
+.sidebar .logo-details .logo_name{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.sidebar .nav-links{
+  margin-top: 10px;
+}
+.sidebar .nav-links li{
+  position: relative;
+  list-style: none;
+  height: 50px;
+}
+.sidebar .nav-links li a{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.sidebar .nav-links li a:hover{
+  background: #081D45;
+  
+}
+.sidebar .nav-links li i{
+  min-width: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+.sidebar .nav-links li a .links_name{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sidebar .nav-links .log_out{
+  position: absolute;
+  bottom: 160px;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: -8px;
+}
